@@ -26,7 +26,7 @@ public class Function {
         if (name == null) {
             return request.createResponse(400, "Please pass a name on the query string or in the request body");
         } else {
-            return request.createResponse(200, "Hello, " + name);
+            return request.createResponse(200, "Hello, " + name + "!");
         }
     }
 }
